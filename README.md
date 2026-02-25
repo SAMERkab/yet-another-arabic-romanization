@@ -1,4 +1,4 @@
-# yet-another-arabic-romanization
+# Yet Another Arabic Romanization
 
 ## Goals
 - correctness of pronunciation by uninitiated readers
@@ -9,6 +9,7 @@
     - only lower-case latin alphabet letters
     - optional separation of repeated letters by `-`, e.g. `kath-thar` vs. `kaththar`
 
+## Letters
 
 | Letter      | Unicode     | Name            | yaar        |
 |-------------|-------------|-----------------|-------------|
@@ -63,25 +64,21 @@
 | ٪           | 0x066a      | bi almi-ah      | %           |
 |             |             |                 |             |
 
-- fatha, kasra, damma: a, i, u
-- tanwiin: ann, inn, unn
-- special:
-    - al atta_riif: alqamar, ash-shams
-    - shad-dA: `<letter>-<letter>`
----
-ideas: 
-    switch dz and dh ?
-    dash instead of apostrophe for hamza
-    dash at beginning of words is ommited
-    underscore instead of tilde for `_ayn`
-problems:
-    when a dash is omitted from a shadda, the letters become ambiguous because of ss, tt and dd.
----
-sample text:
-bukaa-ukumaa yashfii wa in kaana laa yujdii         fa juudaa fa qad awdaah nazhiirukumaa _indii     d_
+## Special
+
+- `fat-hah`, `kasrah`, `dammah`: `a`, `i`, `u`
+- `tanwiin`: `ann`, `inn`, `unn`
+- `laamu t ta_riif`:
+    - `al laamu l qamariyyah`: `al qamar`, `ra-aytu l qamar`
+    - `al laamu sh shamsiyyah`: `ash shams`, `ra-aytu sh shamsa`
+- `shaddah`: `<letter><letter>`, `<letter>-<letter>`
+
+## Sample Text
+```
+bukaa-ukumaa yashfii wa in kaana laa yujdii         fa juudaa fa qad awdaah nazhiirukumaa _indii
 bunayya l ladhii ahhdathhu kaffaaya li th tharaah   fa yaa _izzahta l muhhdaah wa yaa hhasratahta l mahhdii
-alaa qaatala llaahhu l manaayaa wa ramyahhaa        mina l qawmi habbaati l quluubi _alaah _amdi     d_
-tawakh-khaah himaamu l mawti awsatda szibyatii      fa li llaahhi kaifa khtaara waasitdahta l _iqdi  d_
+alaa qaatala llaahhu l manaayaa wa ramyahhaa        mina l qawmi habbaati l quluubi _alaah _amdi
+tawakh-khaah himaamu l mawti awsatda szibyatii      fa li llaahhi kaifa khtaara waasitdahta l _iqdi
 _alaah hiini shumtu l khaira min lama-haatihhi      wa aanastu min af_aalihhi aayahta r rushdi
 tdawaahhu r radaah _annii fa adz-haah mazaaruhhu    ba_iidann _alaah qurbinn qariibann _alaah bu_di
 laqad anjazat fihhi l manaayaa wa_iidahaa           wa akhlafati l aamaalu maa kaana min wa_di
@@ -95,9 +92,18 @@ bi wudddiya annii kuntu quddimtu qablahhu           wa anna l manaayaa duunahhu 
 wa laakinna rabbii shaa-a ghaira mashii-atii        wa li r rabbi imdzaa-u l mashii-ahti la l _abdi
 wa maa sarranii an bi_tuhhu bi thawaabihhi          wa law annahhu t takhliidu fi jannahti l khuldi
 wa laa bi_tuhhu tdaw_ann wa laakin ghuszibtuhhu     wa laysa _alaah zhulmi l hawaadithi min mu_di
+```
 
+## Ideas
+- switch dz and dh?
+- dash instead of apostrophe for hamza
+- dash at beginning of words is ommited
+- underscore instead of tilde for `_ayn`
 
-## version with only one letter per arabic letter
+## Problems
+- when a dash is omitted from a shadda, the letters become ambiguous because of ss, tt and dd.
+
+## Version with Only One Letter per Arabic Letter
 
 | Letter      | Unicode     | Name           | yaar        |
 |-------------|-------------|----------------|-------------|
