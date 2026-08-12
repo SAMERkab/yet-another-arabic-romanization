@@ -72,6 +72,9 @@
     - `al laamu l qamariyyah`: `al qamar`, `ra-aytu l qamar`
     - `al laamu sh shamsiyyah`: `ash shams`, `ra-aytu sh shamsa`
 - `shaddah`: `<letter><letter>`, `<letter>-<letter>`
+- `-` can be dropped if that doesn't result in ambiguity. Examples:
+    -  `maa-hir` -> `maahir`
+    -  `-anaa` -> `anaa`
 
 ## Sample Text
 ```
