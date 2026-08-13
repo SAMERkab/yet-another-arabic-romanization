@@ -30,15 +30,15 @@
 | ح           | 0x062d      | hhaa-           | hh          |
 | خ           | 0x062e      | khaa-           | kh          |
 | د           | 0x062f      | daal            | d           |
-| ذ           | 0x0630      | dhaal           | dh          |
+| ذ           | 0x0630      | zhaal           | zh          |
 | ر           | 0x0631      | raa-            | r           |
 | ز           | 0x0632      | zayn            | z           |
 | س           | 0x0633      | siin            | s           |
 | ش           | 0x0634      | shiin           | sh          |
 | ص           | 0x0635      | szaad           | sz          |
-| ض           | 0x0636      | dzaad           | dz          |
+| ض           | 0x0636      | dhaad           | dh          |
 | ط           | 0x0637      | tdaa-           | td          |
-| ظ           | 0x0638      | zhaa-           | zh          |
+| ظ           | 0x0638      | dzaa-           | dz          |
 | ع           | 0x0639      | _ayn            | _, `, v     |
 | غ           | 0x063a      | ghayn           | gh          |
 | ف           | 0x0641      | faa-            | f           |
